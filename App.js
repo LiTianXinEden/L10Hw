@@ -85,7 +85,8 @@ const App = () => {
     return (
         <View style={styles.itemContainer}>
           <Text style={styles.breedName}>{item.BreedName}</Text>
-          <Text style={styles.coatType}>{item.CoatType}</Text>
+          <Text style={styles.coatType}>Coat type: {item.CoatType}</Text>
+          <Text style={styles.coatType}>Origin Location: {item.OriginLocation}</Text>
         </View>
     );
   };
